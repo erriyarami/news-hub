@@ -1,0 +1,21 @@
+<div class="container">
+    <form [formGroup]="loginForm" class="form">
+        <div class="form-group">
+            <label class="d-block">Email</label>
+            <input type="email" class="form-control" formControlName="email"   [ngClass]="{ 'is-invalid': submitted && loginFormControls['email'].errors }">
+            <div *ngIf="submitted && loginFormControls['email'].errors" class="invalid-feedback mb-3">
+                <div *ngIf="loginFormControls['email'].errors['required']">Email is required</div>        
+           </div>
+        </div>
+        <div class="form-group">
+            <label class="d-block">Password</label>
+            <input type="password" class="form-control" formControlName="password"  [ngClass]="{ 'is-invalid': submitted && loginFormControls['password'].errors }">
+            <div *ngIf="submitted && loginFormControls['password'].errors" class="invalid-feedback mb-3">
+                <div *ngIf="loginFormControls['password'].errors['required']">Password is required</div>        
+           </div>
+        </div>
+        <button type="submit"class="btn btn-primary" (click)="submit()">
+            Submit
+        </button>
+    </form>
+</div>

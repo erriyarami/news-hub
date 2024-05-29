@@ -1,0 +1,12 @@
+
+<ng-container *ngIf="isAdmin">
+  <app-admin-dashboard></app-admin-dashboard>
+</ng-container>
+
+<ng-container *ngIf="isUser">
+  <app-user-dashboard></app-user-dashboard>
+</ng-container>
+
+<ng-container *ngIf="isGuest">
+  <app-guest-dashboard></app-guest-dashboard>
+</ng-container>

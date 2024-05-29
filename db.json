@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "id": "3fb0",
+      "name": "Riya Rami",
+      "email": "riya@123.com",
+      "password": "test",
+      "role": "Admin"
+    },
+    {
+      "id": "365f",
+      "name": "Dignissimos hic qui ",
+      "email": "zupolyl@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "User"
+    },
+    {
+      "id": "df88",
+      "name": "Necessitatibus conse",
+      "email": "tyxo@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "role": "Guest"
+    },
+    {
+      "id": "d949",
+      "name": "test",
+      "email": "test123@gmail.com",
+      "password": "test",
+      "role": "Guest"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #516BEB !important;
+}
+.nav-link{
+    color:white !important;
+}
+.nav-link.login{
+    border:2px solid white;
+    border-radius: 5px;
+}
